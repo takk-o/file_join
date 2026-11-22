@@ -1,0 +1,10 @@
+[project]
+name = "file-join"
+version = "1.0.0"
+description = "フォルダ内の CSV・Excel ファイルを 1 つのファイルに結合する"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=3.0",
+]
